@@ -69,7 +69,7 @@ export default function DetailBerita() {
 
         <BeritaCard {...berita} />
 
-        <h2 className="text-2xl font-semibold mb-2">Komentar</h2>
+        <h2 className="text-2xl font-semibold my-4">Komentar</h2>
         <ul className="mb-4 space-y-2">
           {berita.comments.map((c) => (
             <li key={c.id} className="border p-2 rounded-lg">
