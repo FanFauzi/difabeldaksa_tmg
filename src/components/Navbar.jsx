@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="bg-orange-600 text-white px-6 py-4 flex justify-between items-center">
       <Link href="/" className="font-bold text-xl">
-        KDDT
+        KDD
       </Link>
       <div className="space-x-6">
         <Link href="/berita">Berita</Link>
